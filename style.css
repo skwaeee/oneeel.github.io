@@ -1,0 +1,182 @@
+
+body {
+    background-image: url(klo.jpg);
+ background-repeat: repeat;
+
+}
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+
+nav {
+    background-color: #666;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.main {
+    padding: 1px;
+
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50em;
+}
+
+
+
+header img {
+    width: 100px; 
+    height: auto;
+}
+
+
+.social-links {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links img {
+    width: 30px; 
+    height: auto;
+}
+
+
+.photo-gallery img{
+    width: 250px; 
+    height: 250px;
+    margin: 5px;
+    left: 10em;
+    transition-property: all;
+    transition: 5s;
+}
+.photo-gallery img:hover:hover{
+    transform: scale(1.5,1.5);
+}
+    
+.question {
+    margin: 20px;
+}
+
+.choices label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.choices input[type="radio"] {
+    margin-right: 5px;
+}
+
+.result {
+    font-weight: bold;
+    margin: 20px;
+}
+
+.film img{
+    width: 90px; 
+    height: 90px;
+    margin: 5px;
+    left: 10em;
+    transition-property: all;
+    transition: 2s;
+}
+.film img:hover:hover{
+    transform: scale(1.5,1.5);
+}
+.text {
+    position: absolute;
+    left: 13em;
+}
+.fact1 {
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 103em;
+    left: 5em;
+    transition-property: all;
+    transition: 2s;
+
+}
+.fact1:hover:hover{
+    transform: scale(1.5,1.5);
+}
+.text2{
+    position: absolute;
+    left: 19em;
+    top: 103em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fact2{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 118em;
+    left: 35em;
+    transition-property: all;
+    transition: 2s;
+}
+.fact2:hover:hover{
+    transform: scale(1.5,1.5);
+}
+.texttt{
+    position: absolute;
+    left: 5em;
+    top: 120em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fact3{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    top: 133em;
+    left: 5em;
+    transition-property: all;
+    transition: 2s;
+}
+.fact3:hover:hover{
+    transform: scale(1.5,1.5);
+}
+.text3{
+    position: absolute;
+    left: 19em;
+    top: 133em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
